@@ -1,0 +1,69 @@
+Computer
+.id 						: computerID
+.name 						: computerName
+.ip 						: 127.0.0.1 
+.security 					: 2
+.allowsDefaultBootModule 	: true
+.icon 						: laptop
+.type 						: 1
+-
+adminPass
+.pass : admin_password
+
+account
+.username 	: user
+.password 	: password
+.type		: ALL
+
+ports : 21, 22, 25, 80
+
+portsForCrack
+.val : 0
+
+trace
+.time : -1
+
+admin
+.type 			: fast
+.resetPassword 	: false
+.isSuper 		: false
+
+portRemap : 22=2
+
+tracker
+
+dlink
+.target : computerID2
+positionNear
+.target 		: computerID2
+.position 		: 1
+.total 			: 3
+.extraDistance 	: 0.1
+.force 			: false
+
+dlink
+.target : computerID3
+
+file 	: File content.
+.path 	: home/txt
+.name 	: file.txt
+
+file	: File content 2.
+.path	: home/txt
+.name	: file2.txt
+
+!eosDevice
+.name 			: EOS Device Name
+.id 			: EOS Device ID
+.icon 			: ePhone2
+.empty 			: true
+.passOverride 	: notAlpine
+;note : Note content.
+;mail
+.username : username@jmail.com
+.pass	  : mail_password
+;file : eOS file content.
+.path : eos/txt
+.name : file.txt
+
+PointClicker
