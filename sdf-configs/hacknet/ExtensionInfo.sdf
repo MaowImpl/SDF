@@ -1,0 +1,29 @@
+HacknetExtension
+-
+name        : Extension Name
+language    : en-us
+description : Extension\nDescription (You must use the newline character '\n' in order to separate lines)
+allowSaves  : true
+
+startingVisibleNodes : node1,node2,node3
+startingMission		 : Missions/Mission.xml
+startingActions      : Actions/Actionset.xml
+startingTheme        : Themes/Theme.xml
+faction              : Factions/Faction1.xml
+faction              : Factions/Faction2.xml
+
+startsWithTutorial : false
+hasIntroStartup    : true
+introStartupSong   : Music/MusicTrack.ogg
+
+sequencerTargetID    		  : sequencerTarget
+sequencerSpinUpTime  		  : 10.5
+sequencerFlagRequiredForStart : sequencerFlag
+actionsToRunOnSequencerStart  : Actions/SequencerActions.xml
+
+workshopDescription 	 : Workshop\nDescription
+workshopLanguage		 : English
+workshopVisibility  	 : 2
+workshopTags        	 : Extension
+workshopPreviewImagePath : Logo.png
+
