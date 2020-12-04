@@ -1,0 +1,40 @@
+mission
+.id 								: missionID
+.activeCheck 						: true
+.shouldIgnoreSenderVerification 	: false
+-
+!goals
+;goal
+.type 	: filedeletion
+.target : computerID
+.file	: file.txt
+.path	: home/txt
+
+missionStart 	: changeSong
+.val			: 7
+.suppress		: true
+
+missionEnd 	: changeEnd
+.val		: 1
+
+nextMission : NONE
+.IsSilent	: false
+ 
+posting 		: Posting text content.
+.title 			: Posting title.
+.reqs 			: postingFlag
+.requireRank 	: 3
+
+!email
+;sender 	: Email sender.
+;subject 	: Email subject.
+;body		: Email body.
+;;attachments
+;;;note 	: Note contents.
+.title		: Note title.
+;;;link
+.comp		: computerID2
+;;;account
+.comp		: computerID3
+.user		: user
+.pass		: password

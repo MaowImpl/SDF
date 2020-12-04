@@ -1,0 +1,17 @@
+CustomFaction
+.name 		: Faction Name
+.id 		: factionID
+.playerVal 	: 0
+-
+!Action
+.ValueRequired 	: 1
+;RunFunction
+.FunctionName 	: changeSong
+.FunctionValue	: 6
+;LoadMission
+.MissionName	: Missions/Mission2.xml
+;AddAsset
+.FileName			: MemForensics.exe
+.FileContents		: #MEM_FORENSICS_EXE#
+.TargetComp			: computerID3
+.TargetFolderpath 	: bin
