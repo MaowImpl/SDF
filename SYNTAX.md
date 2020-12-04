@@ -9,7 +9,7 @@ Comments are little lines that are not read by the parser, they (as well as empt
 ## Attributes
 An attribute is essentially the equivalent of a tag in other formats. It has a name and value. Each line is a separate attribute; however, there are different kinds of attributes that are for different uses. An attribute also does not have to be assigned, its value can be left blank.
 
-`attributeName : attributeValue`
+`attributeName : Attribute value.`
 
 When making an unassigned attribute, you can remove the colon. The colon is also not restricted to a specific location, you can have any amount of spaces between it and the attribute name/value.
 Any attribute can be assigned, but depending on what format you are converting to, the value of the attribute might not be crossed over. 
@@ -47,3 +47,14 @@ A nested attribute is able to contain other nested attributes, a new level of ne
 
 ## Document Header
 The document header contains the name of the document alongside the root inner-attributes, the root inner-attributes are used to declare values that are specific to the document, not any of the documents elements.
+```
+Document Name
+.rootInnerAttribute  : Root inner-attribute value.
+.rootInnerAttribute2 : Root inner-attribute value 2.
+```
+The header ends when a single hyphen is found, after which is where the attributes are declared.
+```
+Document Name
+-
+attributeName : Attribute value.
+```
