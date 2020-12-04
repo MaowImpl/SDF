@@ -30,7 +30,7 @@ A category is a type of attribute that holds other attributes (known as nested a
 ```
 !category : Category value.
 ```
-Categories can also be empty, a category has officially ended when there are no longer any nested attributes within it.
+Categories can also be empty, a category has officially ended when there are no longer any nested attributes within it. Categories can also have inner-attributes.
 
 ### Nested Attributes
 A nested attribute is a type of attribute that is part of a category, they cannot be declared outside of a category.
@@ -44,6 +44,7 @@ A nested attribute is able to contain other nested attributes, a new level of ne
 ;nestedAttribute   : Nested attribute value.
 ;;nestedAttribute2 : Nested attribute value 2.
 ```
+Nested attributes are able to have inner-attributes as well.
 
 ## Document Header
 The document header contains the name of the document alongside the root inner-attributes, the root inner-attributes are used to declare values that are specific to the document, not any of the documents attributes.
