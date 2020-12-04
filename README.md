@@ -7,6 +7,9 @@ Summarized Data Format (SDF) is a custom data format, its main goal is to allow 
 ## Syntax Guide
 [Link](https://github.com/Maowcraft/SDF/blob/master/SYNTAX.md)
 
-## Important Links
+## Files
+* [Notepad++ User Defined Language](https://github.com/Maowcraft/SDF/blob/master/npp-udl/SDF.xml)
+
+## Tools
 * [Java SDF Reader/Writer](https://github.com/Maowcraft/JavaSDF) (JavaSDF)
 * [SDF-to-XML Conversion Tool](https://github.com/Maowcraft/SDF2XML) (SDF2XML)
