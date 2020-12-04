@@ -2,15 +2,13 @@ HacknetExtension
 -
 name        : Extension Name
 language    : en-us
-description : Extension\nDescription (You must use the newline character '\n' in order to separate lines)
-allowSaves  : true
+description : Extension Description
 
 startingVisibleNodes : node1,node2,node3
 startingMission      : Missions/Mission.xml
 startingActions      : Actions/Actionset.xml
 startingTheme        : Themes/Theme.xml
-faction              : Factions/Faction1.xml
-faction              : Factions/Faction2.xml
+faction              : Factions/Faction.xml
 
 startsWithTutorial : false
 hasIntroStartup    : true
