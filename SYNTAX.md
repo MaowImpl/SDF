@@ -46,7 +46,7 @@ A nested attribute is able to contain other nested attributes, a new level of ne
 ```
 
 ## Document Header
-The document header contains the name of the document alongside the root inner-attributes, the root inner-attributes are used to declare values that are specific to the document, not any of the documents elements.
+The document header contains the name of the document alongside the root inner-attributes, the root inner-attributes are used to declare values that are specific to the document, not any of the documents attributes.
 ```
 Document Name
 .rootInnerAttribute  : Root inner-attribute value.
