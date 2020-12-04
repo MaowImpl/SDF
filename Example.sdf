@@ -1,0 +1,12 @@
+SDF Document
+.rootInnerAttribute  : Root inner-attribute value.
+.unassignedAttribute 
+-
+attribute            : Attribute value.
+.innerAttribute      : Inner-attribute value.
+.innerAttribute2     : Inner-attribute value 2.
+!category            : Category value.
+;nestedAttribute     : Nested attribute value.
+;;nestedAttribute2   : Nested attribute value 2.
+
+# This is a comment :)
