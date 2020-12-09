@@ -12,6 +12,7 @@ Summarized Data Format (SDF) is a custom data format, its main goal is to allow 
 
 ## Tools
 * [Conversion Tool](#) (SDF Conversion Tool) | **Coming Soon**
+* **DEPRECATED** | [SDF2XML](https://github.com/Maowcraft/SDF2XML) (SDF-to-XML Conversion Tool)
 
 # SDF for Java
 
