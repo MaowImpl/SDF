@@ -21,6 +21,6 @@ Summarized Data Format (SDF) is a custom data format, its main goal is to allow 
 
 ## Adapters
 * [XML Adapter](https://github.com/Maowcraft/sdf-xml-adapter) (sdf-xml-adapter)
-* [JSON Adapter](#) (sdf-json-adapter) | **Coming Soon**
+* [JSON Adapter](https://github.com/Maowcraft/sdf-json-adapter) (sdf-json-adapter)
 * [TOML Adapter](#) (sdf-toml-adapter) | **Coming Soon**
 * [YAML Adapter](#) (sdf-yaml-adapter) | **Coming Soon**
