@@ -11,7 +11,15 @@ Summarized Data Format (SDF) is a custom data format, its main goal is to allow 
 * [Notepad++ User Defined Language](https://github.com/Maowcraft/SDF/blob/master/npp-udl/SDF.xml)
 
 ## Tools
-* [Java SDF Implementation](https://github.com/Maowcraft/JavaSDF) (JavaSDF)
+* [Conversion Tool](#) (SDF Conversion Tool) | **Coming Soon**
+
+# SDF for Java
+
+## Libraries
+* [Official Java SDF Parser](https://github.com/Maowcraft/JavaSDF) (JavaSDF)
 
 ## Adapters
-* [XML Adapter (JavaSDF)](https://github.com/Maowcraft/sdf-xml-adapter) (sdf-xml-adapter)
+* [XML Adapter](https://github.com/Maowcraft/sdf-xml-adapter) (sdf-xml-adapter)
+* [JSON Adapter](#) (sdf-json-adapter) | **Coming Soon**
+* [TOML Adapter](#) (sdf-toml-adapter) | **Coming Soon**
+* [YAML Adapter](#) (sdf-yaml-adapter) | **Coming Soon**
