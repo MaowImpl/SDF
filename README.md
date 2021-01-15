@@ -2,7 +2,9 @@
 SDF hub, includes links and files related to SDF as well as a syntax guide.
 
 ## About
-Summarized Data Format (SDF) is a custom data format, its main goal is to allow a sort of intermediary format that is able to be easily converted into other formats such as JSON or XML. It is designed to be easily readable, editable, maintainable, and parseable.
+Summarized Data Format (SDF) is a custom data format, its main goal is to allow a sort of intermediary format that is able to be easily converted into other formats such as JSON or XML. It is designed to be easily readable, editable, maintainable, and parseable.<br>
+
+A new version of SDF, called ESDF (or SDF 1.1), was released in 2021.
 
 [Syntax Guide 1.0 (SDF)](https://github.com/Maowcraft/SDF/blob/master/SYNTAX.md)<br>
 [Syntax Guide 1.1 (ESDF)](https://github.com/Maowcraft/SDF/blob/master/SYNTAX-ESDF.md)<br>
