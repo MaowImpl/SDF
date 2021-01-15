@@ -6,25 +6,25 @@ Summarized Data Format (SDF) is a custom data format, its main goal is to allow 
 
 A new version of SDF, called ESDF (or SDF 1.1), was released in 2021.
 
-[Syntax Guide 1.0 (SDF)](https://github.com/Maowcraft/SDF/blob/master/SYNTAX.md)<br>
-[Syntax Guide 1.1 (ESDF)](https://github.com/Maowcraft/SDF/blob/master/SYNTAX-ESDF.md)<br>
-[Example SDF](https://github.com/Maowcraft/SDF/blob/master/Example.sdf)
+[Syntax Guide 1.0 (SDF)](https://github.com/MaowImpl/SDF/blob/master/SYNTAX.md)<br>
+[Syntax Guide 1.1 (ESDF)](https://github.com/MaowImpl/SDF/blob/master/SYNTAX-ESDF.md)<br>
+[Example SDF](https://github.com/MaowImpl/SDF/blob/master/Example.sdf)
 
 ## Files
-* [Notepad++ User Defined Language](https://github.com/Maowcraft/SDF/blob/master/npp-udl/SDF.xml)
+* [Notepad++ User Defined Language](https://github.com/MaowImpl/SDF/blob/master/npp-udl/SDF.xml)
 
 ## Tools
 * [Conversion Tool](#) (Format-independent SDF Conversion Tool) | **Coming Soon**
-* **DEPRECATED** | [SDF2XML](https://github.com/Maowcraft/SDF2XML) (SDF-to-XML Conversion Tool)
+* **DEPRECATED** | [SDF2XML](https://github.com/MaowImpl/SDF2XML) (SDF-to-XML Conversion Tool)
 
 # SDF for Java
 
 ## Libraries
-* [Java SDF Parser](https://github.com/Maowcraft/JavaSDF) (JavaSDF)
-* [Java ESDF Parser](https://github.com/Maowcraft/JavaESDF) (JavaESDF)
+* [Java SDF Parser](https://github.com/MaowImpl/JavaSDF) (JavaSDF)
+* [Java ESDF Parser](https://github.com/MaowImpl/JavaESDF) (JavaESDF)
 
 ## Adapters
-* [XML Adapter](https://github.com/Maowcraft/sdf-xml-adapter) (sdf-xml-adapter)
-* [JSON Adapter](https://github.com/Maowcraft/sdf-json-adapter) (sdf-json-adapter)
+* [XML Adapter](https://github.com/MaowImpl/sdf-xml-adapter) (sdf-xml-adapter)
+* [JSON Adapter](https://github.com/MaowImpl/sdf-json-adapter) (sdf-json-adapter)
 * [TOML Adapter](#) (sdf-toml-adapter) | **Coming Soon**
 * [YAML Adapter](#) (sdf-yaml-adapter) | **Coming Soon**
